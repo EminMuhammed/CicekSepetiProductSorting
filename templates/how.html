@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Çiçek Sepeti Ürün Sıralama</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="container">
+                <a href="/"><h1 class="display-3">Product Ranking</h1></a>
+              <p>Ciceksepeti products are ranked statistically according to points.</p>
+              <p><a class="btn btn-primary btn-lg" href="https://github.com/EminMuhammed?tab=repositories" role="button" target="_blank">Github &raquo;</a></p>
+              <p><a class="btn btn-primary btn-lg" href="/" role="button">Home Page &raquo;</a></p>
+            </div>
+        </div>
+
+        <h1>Neden Ürün Sıralama Önemli</h1>
+        <hr>
+        <p>Sitelere girdiğimiz zaman ürünleri puana göre sıraladığımız da bu sıralamanın nasıl yapıldığını merak ettiniz mi?</p>
+        <p>100 yorum alıp 4.5 puan alan ürün mü üst sırada olmalı yoksa 1000 yorum alıp 4.2 puan alan ürün mü üst sırada olmalı?</p>
+        <p>Ürünlerde ki puan ağırlıklarının farklı olmasının sıralamaya etkisi var mı? Bir üründe ki 5 yıldız sayısı ile 1 yıldız alma sayısının sıralamaya etkisi olmalı mı?</p>
+
+        <h1>Projenin Amacı</h1>
+        <hr>
+        <p>Web sitelerinde ürünleri puan/yorum sayısına göre sıralamak önemlidir. <a target="_blank" href="https://bootcamp.veribilimiokulu.com/egitim/veri-bilimci-yetistirme-programi/">Veribilimi Okulu</a> kapsamında öğrendiğim sıralama yöntemlerinden bayes yöntemini kullanarak ürünleri sıralamayı öğreneceğiz ve örnekle de beraber tecrübe edeceğiz.</p>
+        <p>İşlemlerin kodlarına <a target="_blank" href="">github</a> hesabımdan ulaşabilirsiniz. Fakat herhangi bir sorun yaşamamak amacıyla scrape kodlarını paylaşmayacağım. Sunucuda çalıştırdığım için sitede ki ilk sayfanın ilk 20 ürünün bilgisini alıp sıralama yapacaktır.</p>
+
+        <h1> Nasıl Çalışır</h1>
+        <hr>
+        <p>Ürünlerini sıralamak istediğimiz sayfanın linkin verip start a bastığımız zaman o sayfanın bilgilerini scrape edecektir.
+        Normalde sayfa sayısını belirleyebiliyoruz fakat sunucudan kaynaklı olarak 1 sayfa ve ilk 20 ürün olarak sınırlandırmak zorunda kaldım.</p>
+        <p>Verdiğiniz sayfa da ki ürünlerin gerekli bilgilerini scrape ettikten sonra bayes yöntemine göre sıralayacaktır.</p>
+
+        <h1>NOT</h1>
+        <hr>
+        <p>Yaptığım tüm işlemlerin kodlarına <a target="_blank" href="">github</a> hesabımdan ulaşabilirsiniz. (scrape kodları hariç)</p>
+        <br>
+        <h4>Çıktıların Anlamı</h4>
+        <p>Site ranking: Ürünün çiçeksepetinde ki sırası</p>
+        <p>Product Rating: Ürün puanı</p>
+        <p>Bayesian Rating Score: Ürünün bayes skoru</p>
+        <p>Weighted Rating Score: Ürünün weighted skoru</p>
+        <p>Comment number: Ürünün toplam yorum sayısı</p>
+        <div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
