@@ -1,4 +1,6 @@
 # CicekSepeti Product Sorting
+Proje Web Sitesi: https://sortciceksepeti.herokuapp.com/
+
 Sitelere girdiğimiz zaman ürünleri puana göre sıraladığımız da bu sıralamanın nasıl yapıldığını merak ettiniz mi?
 
 100 yorum alıp 4.5 puan alan ürün mü üst sırada olmalı yoksa 1000 yorum alıp 4.2 puan alan ürün mü üst sırada olmalı?
