@@ -18,7 +18,6 @@ Program çalışırken gidilen sayfada ki bilgileri scrape edip sıralama yapaca
 Örnek sayfa linki: https://www.ciceksepeti.com/kozmetik-varvar?orderby=7&page=
 
 ## Çıktıların Anlamı
-<strong>This text is important!</strong>
 
 <strong>Site ranking:</strong> Ürünün çiçeksepetinde ki sırası
 
